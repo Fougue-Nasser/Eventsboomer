@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900&display=swap"
+    />
+  </head>
+  <body>
+    <div
+      class="w-full relative bg-whitesmoke-200 h-[4396px] overflow-hidden text-left text-base text-black1 font-nunito md:w-[1440px]"
+    >
+      <img
+        class="absolute w-[calc(100%_-_120px)] top-[129px] right-[60px] left-[60px] rounded-[10px] max-w-full overflow-hidden h-[596px] object-cover"
+        alt=""
+        src="/public/Nav picure@2x.png"
+      />
+
+      <nav
+        class="m-0 absolute w-[calc(100%_-_240px)] top-[50px] right-[120px] left-[120px] flex flex-row items-center justify-between text-left text-base text-black font-nunito"
+      >
+        <img
+          class="w-[177.2px] relative h-[55px] object-cover"
+          alt=""
+          src="/public/20240229-143556removebgpreview-1@2x.png"
+        />
+
+        <div class="flex flex-row items-center justify-start gap-[0px_52px]">
+          <a
+            class="[text-decoration:none] relative text-[inherit]"
+            target="_blank"
+            >Upcoming Events</a
+          >
+          <a
+            class="[text-decoration:none] relative text-[inherit]"
+            target="_blank"
+            >Contact</a
+          >
+          <a
+            class="[text-decoration:none] relative text-[inherit]"
+            target="_blank"
+            >About Us</a
+          >
+        </div>
+        <div class="flex flex-row items-center justify-end gap-[0px_20px]">
+          <button
+            class="cursor-pointer py-[15px] px-10 bg-[transparent] rounded-8xs flex flex-row items-center justify-center border-[1px] border-solid border-darkslategray-200 hover:bg-khaki"
+          >
+            <div
+              class="relative text-base font-nunito text-darkslategray-200 text-center"
+            >
+              Login
+            </div>
+          </button>
+          <button
+            class="cursor-pointer [border:none] py-[15px] px-10 bg-gold rounded-8xs flex flex-row items-center justify-center hover:bg-khaki"
+          >
+            <div
+              class="relative text-base font-nunito text-darkslategray-200 text-center"
+            >
+              Signup
+            </div>
+          </button>
+        </div>
+      </nav>
+      <h1
+        class="m-0 absolute w-[calc(100%_-_682px)] top-[229px] left-[341px] text-[64px] leading-[80px] font-black font-inherit text-whitesmoke-100 text-center inline-block"
+      >
+        Join The Best Events Near You
+      </h1>
+      <div
+        class="absolute top-[653px] left-[calc(50%_-_580px)] rounded-[20px] bg-goldenrod w-[1160px] h-36 overflow-hidden flex flex-row items-center justify-start py-0 px-[70px] box-border gap-[0px_40px] text-darkslategray-200"
+      >
+        <div
+          class="w-[950px] flex flex-row items-center justify-start gap-[0px_40px]"
+        >
+          <div
+            class="flex-1 h-[70px] flex flex-col items-start justify-between"
+          >
+            <div class="self-stretch relative font-semibold">Looking for</div>
+            <select
+              class="self-stretch rounded-8xs bg-gray-100 [border:none] flex flex-row items-center justify-between py-2 px-4 font-nunito text-xs text-darkslategray-100"
+            ></select>
+          </div>
+          <div
+            class="flex-1 h-[70px] flex flex-col items-start justify-between"
+          >
+            <div class="self-stretch relative font-semibold">Location</div>
+            <select
+              class="self-stretch rounded-8xs bg-gray-100 [border:none] flex flex-row items-center justify-between py-2 px-4 font-nunito text-xs text-darkslategray-100"
+            ></select>
+          </div>
+          <div
+            class="flex-1 h-[70px] flex flex-col items-start justify-between"
+          >
+            <div class="self-stretch relative font-semibold">When</div>
+            <select
+              class="self-stretch rounded-8xs bg-gray-100 [border:none] flex flex-row items-center justify-between py-2 px-4 font-nunito text-xs text-darkslategray-100"
+            ></select>
+          </div>
+        </div>
+        <button
+          class="cursor-pointer [border:none] p-2.5 bg-darkslategray-200 w-[70px] rounded-8xs h-[70px] flex flex-row items-center justify-center box-border"
+        >
+          <img
+            class="w-6 relative h-6 overflow-hidden shrink-0"
+            alt=""
+            src="/public/fether-icons--search.svg"
+          />
+        </button>
+      </div>
+      <div
+        class="absolute top-[884px] left-[120px] h-[49px] flex flex-row items-start justify-start gap-[0px_368px] text-17xl"
+      >
+        <h2 class="m-0 relative text-inherit font-bold font-inherit">
+          <span>Upcoming </span>
+          <span class="text-gold">Events</span>
+        </h2>
+        <div
+          class="w-[460px] flex flex-row items-center justify-center gap-[0px_20px]"
+        >
+          <select
+            class="w-[140px] rounded-8xs bg-slategray [border:none] flex flex-row items-center justify-between py-2 px-4 box-border font-nunito text-xs text-black"
+          ></select>
+          <select
+            class="w-[140px] rounded-8xs bg-slategray [border:none] flex flex-row items-center justify-between py-2 px-4 box-border font-nunito text-xs text-black"
+          ></select>
+          <select
+            class="w-[140px] rounded-8xs bg-slategray [border:none] flex flex-row items-center justify-between py-2 px-4 box-border font-nunito text-xs text-black"
+          ></select>
+        </div>
+      </div>
+      <div
+        class="absolute w-[calc(100%_-_1246px)] top-[1831px] right-[642px] left-[604px] rounded-8xs bg-gold h-[49px] flex flex-row items-center justify-center py-[15px] px-10 box-border text-center text-white"
+      >
+        <div class="relative">View more</div>
+      </div>
+      <div
+        class="absolute top-[402px] left-[95px] rounded-31xl bg-goldenrod w-[50px] h-[50px] flex flex-row items-center justify-center p-2.5 box-border"
+      >
+        <img
+          class="w-8 relative h-8"
+          alt=""
+          src="/public/phosphor-icons--caretleft.svg"
+        />
+      </div>
+      <div
+        class="absolute top-[402px] left-[1222px] rounded-31xl bg-goldenrod w-[50px] h-[50px] flex flex-row items-center justify-center p-2.5 box-border"
+      >
+        <img
+          class="w-8 relative h-8"
+          alt=""
+          src="/public/phosphor-icons--caretright.svg"
+        />
+      </div>
+      <div
+        class="absolute w-[calc(100%_-_239px)] top-[961px] right-[120px] left-[119px] h-[446px] flex flex-row items-center justify-start gap-[0px_20px] text-xs"
+      >
+        <a
+          class="[text-decoration:none] flex-1 relative rounded-lg bg-white shadow-[0px_-8px_80px_rgba(0,_0,_0,_0.07),_0px_-2.9px_29.2px_rgba(0,_0,_0,_0.05),_0px_-1.4px_14.18px_rgba(0,_0,_0,_0.04),_0px_-0.7px_6.95px_rgba(0,_0,_0,_0.03),_0px_-0.3px_2.75px_rgba(0,_0,_0,_0.02)] h-[446px] overflow-hidden text-[inherit] active:animate-[1s_ease_0s_1_normal_none_shadow-inset-center] active:opacity-[1]"
+          target="_blank"
+        >
+          <img
+            class="absolute w-[calc(100%_-_40.3px)] top-[20px] right-[20.3px] left-[20px] rounded-8xs max-w-full overflow-hidden h-60 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
+            alt=""
+            src="/public/event@2x.png"
+          />
+
+          <div
+            class="absolute top-[30px] left-[30px] rounded-8xs bg-white flex flex-row items-center justify-center py-[5px] px-2.5 text-center text-3xs text-darkkhaki"
+          >
+            <div class="relative font-semibold">10,000FCFA</div>
+          </div>
+          <b
+            class="absolute w-[calc(100%_-_40.3px)] top-[276px] left-[20px] text-5xl inline-block"
+            >BestSelller Book Bootcamp</b
+          >
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] top-[316px] left-[20px] text-base font-light inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            Write, Market & Publish Your Book -Lucknow lorem ipsum
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[55px] left-[20px] text-goldenrod inline-block"
+          >
+            Saturdat, March 18, 9.30PM
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[19px] left-[20px] text-gray1 inline-block"
+          >
+            ONLINE EVENT - Attend anywhere
+          </div>
+        </a>
+        <a
+          class="[text-decoration:none] flex-1 relative rounded-lg bg-white shadow-[0px_-8px_80px_rgba(0,_0,_0,_0.07),_0px_-2.9px_29.2px_rgba(0,_0,_0,_0.05),_0px_-1.4px_14.18px_rgba(0,_0,_0,_0.04),_0px_-0.7px_6.95px_rgba(0,_0,_0,_0.03),_0px_-0.3px_2.75px_rgba(0,_0,_0,_0.02)] h-[446px] overflow-hidden text-[inherit] active:animate-[1s_ease_0s_1_normal_none_shadow-inset-center] active:opacity-[1]"
+          target="_blank"
+        >
+          <img
+            class="absolute w-[calc(100%_-_40.3px)] top-[20px] right-[20.3px] left-[20px] rounded-8xs max-w-full overflow-hidden h-60 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
+            alt=""
+            src="/public/event1@2x.png"
+          />
+
+          <div
+            class="absolute top-[30px] left-[30px] rounded-8xs bg-white flex flex-row items-center justify-center py-[5px] px-2.5 text-center text-3xs text-darkkhaki"
+          >
+            <div class="relative font-semibold">Free</div>
+          </div>
+          <b
+            class="absolute w-[calc(100%_-_40.3px)] top-[276px] left-[20px] text-5xl inline-block"
+            >BestSelller Book Bootcamp</b
+          >
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] top-[316px] left-[20px] text-base font-light inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            Write, Market & Publish Your Book -Lucknow lorem ipsum
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[55px] left-[20px] text-goldenrod inline-block"
+          >
+            Saturdat, March 18, 9.30PM
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[19px] left-[20px] text-gray1 inline-block"
+          >
+            ONLINE EVENT - Attend anywhere
+          </div>
+        </a>
+        <div
+          class="flex-1 relative rounded-lg bg-white shadow-[0px_-8px_80px_rgba(0,_0,_0,_0.07),_0px_-2.9px_29.2px_rgba(0,_0,_0,_0.05),_0px_-1.4px_14.18px_rgba(0,_0,_0,_0.04),_0px_-0.7px_6.95px_rgba(0,_0,_0,_0.03),_0px_-0.3px_2.75px_rgba(0,_0,_0,_0.02)] h-[446px] overflow-hidden active:animate-[1s_ease_0s_infinite_normal_none_shadow-inset-center] active:opacity-[1]"
+        >
+          <img
+            class="absolute w-[calc(100%_-_40.3px)] top-[20px] right-[20.3px] left-[20px] rounded-8xs max-w-full overflow-hidden h-60 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
+            alt=""
+            src="/public/event2@2x.png"
+          />
+
+          <div
+            class="absolute top-[30px] left-[30px] rounded-8xs bg-white flex flex-row items-center justify-center py-[5px] px-2.5 text-center text-3xs text-darkkhaki"
+          >
+            <div class="relative font-semibold">Full</div>
+          </div>
+          <b
+            class="absolute w-[calc(100%_-_40.3px)] top-[276px] left-[20px] text-5xl inline-block"
+            >BestSelller Book Bootcamp</b
+          >
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] top-[316px] left-[20px] text-base font-light inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            Write, Market & Publish Your Book -Lucknow lorem ipsum
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[55px] left-[20px] text-goldenrod inline-block"
+          >
+            Saturdat, March 18, 9.30PM
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[19px] left-[20px] text-gray1 inline-block"
+          >
+            ONLINE EVENT - Attend anywhere
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute w-[calc(100%_-_239px)] top-[1437px] right-[120px] left-[119px] h-[446px] flex flex-row items-center justify-start gap-[0px_20px] text-xs"
+      >
+        <div
+          class="flex-1 relative rounded-lg bg-white shadow-[0px_-8px_80px_rgba(0,_0,_0,_0.07),_0px_-2.9px_29.2px_rgba(0,_0,_0,_0.05),_0px_-1.4px_14.18px_rgba(0,_0,_0,_0.04),_0px_-0.7px_6.95px_rgba(0,_0,_0,_0.03),_0px_-0.3px_2.75px_rgba(0,_0,_0,_0.02)] h-[446px] overflow-hidden active:animate-[1s_ease_0s_1_normal_none_shadow-inset-center] active:opacity-[1]"
+        >
+          <img
+            class="absolute w-[calc(100%_-_40.3px)] top-[20px] right-[20.3px] left-[20px] rounded-8xs max-w-full overflow-hidden h-60 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
+            alt=""
+            src="/public/event3@2x.png"
+          />
+
+          <div
+            class="absolute top-[30px] left-[30px] rounded-8xs bg-white flex flex-row items-center justify-center py-[5px] px-2.5 text-center text-3xs text-darkkhaki"
+          >
+            <div class="relative font-semibold">10,000FCFA</div>
+          </div>
+          <b
+            class="absolute w-[calc(100%_-_40.3px)] top-[276px] left-[20px] text-5xl inline-block"
+            >BestSelller Book Bootcamp</b
+          >
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] top-[316px] left-[20px] text-base font-light inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            Write, Market & Publish Your Book -Lucknow lorem ipsum
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[55px] left-[20px] text-goldenrod inline-block"
+          >
+            Saturdat, March 18, 9.30PM
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[19px] left-[20px] text-gray1 inline-block"
+          >
+            ONLINE EVENT - Attend anywhere
+          </div>
+        </div>
+        <div
+          class="flex-1 relative rounded-lg bg-white shadow-[0px_-8px_80px_rgba(0,_0,_0,_0.07),_0px_-2.9px_29.2px_rgba(0,_0,_0,_0.05),_0px_-1.4px_14.18px_rgba(0,_0,_0,_0.04),_0px_-0.7px_6.95px_rgba(0,_0,_0,_0.03),_0px_-0.3px_2.75px_rgba(0,_0,_0,_0.02)] h-[446px] overflow-hidden active:animate-[1s_ease_0s_1_normal_none_shadow-inset-center] active:opacity-[1]"
+        >
+          <img
+            class="absolute w-[calc(100%_-_40.3px)] top-[20px] right-[20.3px] left-[20px] rounded-8xs max-w-full overflow-hidden h-60 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
+            alt=""
+            src="/public/event4@2x.png"
+          />
+
+          <div
+            class="absolute top-[30px] left-[30px] rounded-8xs bg-white flex flex-row items-center justify-center py-[5px] px-2.5 text-center text-3xs text-darkkhaki"
+          >
+            <div class="relative font-semibold">10,000FCFA</div>
+          </div>
+          <b
+            class="absolute w-[calc(100%_-_40.3px)] top-[276px] left-[20px] text-5xl inline-block"
+            >BestSelller Book Bootcamp</b
+          >
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] top-[316px] left-[20px] text-base font-light inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            Write, Market & Publish Your Book -Lucknow lorem ipsum
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[55px] left-[20px] text-goldenrod inline-block"
+          >
+            Saturdat, March 18, 9.30PM
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[19px] left-[20px] text-gray1 inline-block"
+          >
+            ONLINE EVENT - Attend anywhere
+          </div>
+        </div>
+        <div
+          class="flex-1 relative rounded-lg bg-white shadow-[0px_-8px_80px_rgba(0,_0,_0,_0.07),_0px_-2.9px_29.2px_rgba(0,_0,_0,_0.05),_0px_-1.4px_14.18px_rgba(0,_0,_0,_0.04),_0px_-0.7px_6.95px_rgba(0,_0,_0,_0.03),_0px_-0.3px_2.75px_rgba(0,_0,_0,_0.02)] h-[446px] overflow-hidden active:animate-[1s_ease_0s_1_normal_none_shadow-inset-center] active:opacity-[1]"
+        >
+          <img
+            class="absolute w-[calc(100%_-_40.3px)] top-[20px] right-[20.3px] left-[20px] rounded-8xs max-w-full overflow-hidden h-60 object-cover"
+            alt=""
+            src="/public/event5@2x.png"
+          />
+
+          <div
+            class="absolute top-[30px] left-[30px] rounded-8xs bg-white flex flex-row items-center justify-center py-[5px] px-2.5 text-center text-3xs text-darkkhaki"
+          >
+            <div class="relative font-semibold">10,000FCFA</div>
+          </div>
+          <b
+            class="absolute w-[calc(100%_-_40.3px)] top-[276px] left-[20px] text-5xl inline-block"
+            >BestSelller Book Bootcamp</b
+          >
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] top-[316px] left-[20px] text-base font-light inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            Write, Market & Publish Your Book -Lucknow lorem ipsum
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[55px] left-[20px] text-goldenrod inline-block"
+          >
+            Saturdat, March 18, 9.30PM
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[19px] left-[20px] text-gray1 inline-block"
+          >
+            ONLINE EVENT - Attend anywhere
+          </div>
+        </div>
+      </div>
+      <button
+        class="cursor-pointer [border:none] py-[15px] px-10 bg-gold absolute top-[1923px] left-[calc(50%_-_58px)] rounded-8xs flex flex-row items-center justify-center hover:bg-khaki"
+      >
+        <div
+          class="relative text-base font-nunito text-darkslategray-200 text-center"
+        >
+          More
+        </div>
+      </button>
+      <h2
+        class="m-0 absolute top-[3249px] left-[595.5px] text-17xl font-bold font-inherit"
+      >
+        <span>Our </span>
+        <span class="text-gold">Blogs</span>
+      </h2>
+      <div
+        class="absolute top-[3338px] left-[calc(50%_-_560px)] h-[446px] flex flex-row items-center justify-start gap-[0px_20px] text-xs"
+      >
+        <div
+          class="flex-1 relative rounded-lg bg-white shadow-[0px_-8px_80px_rgba(0,_0,_0,_0.07),_0px_-2.9px_29.2px_rgba(0,_0,_0,_0.05),_0px_-1.4px_14.18px_rgba(0,_0,_0,_0.04),_0px_-0.7px_6.95px_rgba(0,_0,_0,_0.03),_0px_-0.3px_2.75px_rgba(0,_0,_0,_0.02)] h-[446px] overflow-hidden active:animate-[1s_ease_0s_1_normal_none_shadow-inset-center] active:opacity-[1]"
+        >
+          <img
+            class="absolute w-[calc(100%_-_40.3px)] top-[20px] right-[20.3px] left-[20px] rounded-8xs max-w-full overflow-hidden h-60 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
+            alt=""
+            src="/public/event3@2x.png"
+          />
+
+          <div
+            class="absolute top-[30px] left-[30px] rounded-8xs bg-white flex flex-row items-center justify-center py-[5px] px-2.5 text-center text-3xs text-darkkhaki"
+          >
+            <div class="relative font-semibold">10,000FCFA</div>
+          </div>
+          <b
+            class="absolute w-[calc(100%_-_40.3px)] top-[276px] left-[20px] text-5xl inline-block"
+            >BestSelller Book Bootcamp</b
+          >
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] top-[316px] left-[20px] text-base font-light inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            Write, Market & Publish Your Book -Lucknow lorem ipsum
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[55px] left-[20px] text-goldenrod inline-block"
+          >
+            Saturdat, March 18, 9.30PM
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[19px] left-[20px] text-gray1 inline-block"
+          >
+            ONLINE EVENT - Attend anywhere
+          </div>
+        </div>
+        <div
+          class="flex-1 relative rounded-lg bg-white shadow-[0px_-8px_80px_rgba(0,_0,_0,_0.07),_0px_-2.9px_29.2px_rgba(0,_0,_0,_0.05),_0px_-1.4px_14.18px_rgba(0,_0,_0,_0.04),_0px_-0.7px_6.95px_rgba(0,_0,_0,_0.03),_0px_-0.3px_2.75px_rgba(0,_0,_0,_0.02)] h-[446px] overflow-hidden active:animate-[1s_ease_0s_1_normal_none_shadow-inset-center] active:opacity-[1]"
+        >
+          <img
+            class="absolute w-[calc(100%_-_40.3px)] top-[20px] right-[20.3px] left-[20px] rounded-8xs max-w-full overflow-hidden h-60 object-cover hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
+            alt=""
+            src="/public/event4@2x.png"
+          />
+
+          <div
+            class="absolute top-[30px] left-[30px] rounded-8xs bg-white flex flex-row items-center justify-center py-[5px] px-2.5 text-center text-3xs text-darkkhaki"
+          >
+            <div class="relative font-semibold">10,000FCFA</div>
+          </div>
+          <b
+            class="absolute w-[calc(100%_-_40.3px)] top-[276px] left-[20px] text-5xl inline-block"
+            >BestSelller Book Bootcamp</b
+          >
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] top-[316px] left-[20px] text-base font-light inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            Write, Market & Publish Your Book -Lucknow lorem ipsum
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[55px] left-[20px] text-goldenrod inline-block"
+          >
+            Saturdat, March 18, 9.30PM
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[19px] left-[20px] text-gray1 inline-block"
+          >
+            ONLINE EVENT - Attend anywhere
+          </div>
+        </div>
+        <div
+          class="flex-1 relative rounded-lg bg-white shadow-[0px_-8px_80px_rgba(0,_0,_0,_0.07),_0px_-2.9px_29.2px_rgba(0,_0,_0,_0.05),_0px_-1.4px_14.18px_rgba(0,_0,_0,_0.04),_0px_-0.7px_6.95px_rgba(0,_0,_0,_0.03),_0px_-0.3px_2.75px_rgba(0,_0,_0,_0.02)] h-[446px] overflow-hidden active:animate-[1s_ease_0s_1_normal_none_shadow-inset-center] active:opacity-[1]"
+        >
+          <img
+            class="absolute w-[calc(100%_-_40.3px)] top-[20px] right-[20.3px] left-[20px] rounded-8xs max-w-full overflow-hidden h-60 object-cover"
+            alt=""
+            src="/public/event5@2x.png"
+          />
+
+          <div
+            class="absolute top-[30px] left-[30px] rounded-8xs bg-white flex flex-row items-center justify-center py-[5px] px-2.5 text-center text-3xs text-darkkhaki"
+          >
+            <div class="relative font-semibold">10,000FCFA</div>
+          </div>
+          <b
+            class="absolute w-[calc(100%_-_40.3px)] top-[276px] left-[20px] text-5xl inline-block"
+            >BestSelller Book Bootcamp</b
+          >
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] top-[316px] left-[20px] text-base font-light inline-block overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            Write, Market & Publish Your Book -Lucknow lorem ipsum
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[55px] left-[20px] text-goldenrod inline-block"
+          >
+            Saturdat, March 18, 9.30PM
+          </div>
+          <div
+            class="absolute w-[calc(100%_-_40.3px)] bottom-[19px] left-[20px] text-gray1 inline-block"
+          >
+            ONLINE EVENT - Attend anywhere
+          </div>
+        </div>
+      </div>
+      <button
+        class="cursor-pointer [border:none] py-[15px] px-10 bg-gold absolute top-[3824px] left-[622px] rounded-8xs flex flex-row items-center justify-center hover:bg-palegoldenrod"
+      >
+        <div
+          class="relative text-base font-nunito text-darkslategray-200 text-center"
+        >
+          More
+        </div>
+      </button>
+      <div
+        class="absolute w-full right-[0px] bottom-[0px] left-[0px] bg-goldenrod h-[181px] text-right"
+      >
+        <img
+          class="absolute top-[26px] left-[62px] w-[177.2px] h-[55px] object-cover"
+          alt=""
+          src="/public/20240229-143556removebgpreview-1@2x.png"
+        />
+
+        <div
+          class="absolute bottom-[106.5px] left-[calc(50%_+_266px)] flex flex-row items-center justify-start gap-[0px_52px]"
+        >
+          <button
+            class="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base font-nunito text-black text-left inline-block"
+          >
+            Upcoming Events
+          </button>
+          <button
+            class="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base font-nunito text-black text-left inline-block"
+          >
+            Contact
+          </button>
+          <button
+            class="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base font-nunito text-black text-left inline-block"
+          >
+            About Us
+          </button>
+        </div>
+        <div
+          class="absolute w-[calc(100%_-_119px)] right-[59.5px] bottom-[76.5px] left-[59.5px] box-border h-px border-t-[1px] border-solid border-white"
+        ></div>
+        <div class="absolute right-[60px] bottom-[26px]">
+          © 2024 momoevents.All Rights served
+        </div>
+        <a
+          class="[text-decoration:none] absolute w-[calc(100%_-_1228px)] right-[1166px] bottom-[26px] left-[62px] flex flex-row items-center justify-center gap-[0px_15px]"
+        >
+          <img
+            class="w-[35.4px] relative h-8 overflow-hidden shrink-0"
+            alt=""
+            src="/public/xsocialmediablackicon-1.svg"
+          />
+
+          <img
+            class="w-8 relative h-8 overflow-hidden shrink-0"
+            alt=""
+            src="/public/blackinstagramicon-1.svg"
+          />
+
+          <img
+            class="w-8 relative h-8 overflow-hidden shrink-0"
+            alt=""
+            src="/public/facebookroundcoloricon-1.svg"
+          />
+        </a>
+      </div>
+      <div
+        class="absolute top-[3949px] left-[calc(50%_-_578px)] flex flex-row items-start justify-start gap-[0px_96px] text-13xl"
+      >
+        <div class="flex flex-col items-center justify-start gap-[22px_0px]">
+          <img
+            class="w-[38px] relative h-7 overflow-hidden shrink-0"
+            alt=""
+            src="/public/envelopelineicon.svg"
+          />
+
+          <b class="relative">Email</b>
+          <div class="relative text-base">
+            Please fill out the form below to send us a message
+          </div>
+          <button
+            class="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base font-bold font-nunito text-darkkhaki text-left inline-block"
+          >
+            Hello@iclangmail.com
+          </button>
+        </div>
+        <div class="flex flex-col items-center justify-start gap-[22px_0px]">
+          <img
+            class="w-[36.2px] relative h-9 overflow-hidden shrink-0"
+            alt=""
+            src="/public/phonelineicon.svg"
+          />
+
+          <b class="relative">Phone</b>
+          <div class="relative text-base">
+            For any urgent inquiries, please give us a call.
+          </div>
+          <a
+            class="[text-decoration:none] relative text-lg font-bold text-darkkhaki"
+            >+237 6716622112</a
+          >
+        </div>
+        <div
+          class="flex flex-col items-center justify-start gap-[21px_0px] text-base"
+        >
+          <img
+            class="w-[27px] relative h-9 overflow-hidden shrink-0"
+            alt=""
+            src="/public/mapspinlineicon.svg"
+          />
+
+          <b class="relative text-13xl">Office</b>
+          <div class="relative">Visit our office during business hours.</div>
+          <a
+            class="[text-decoration:none] relative font-bold text-darkkhaki"
+            target="_blank"
+            >Bonaberi, Douala, Cameroon</a
+          >
+        </div>
+      </div>
+      <img
+        class="absolute top-[2808px] left-[20px] rounded-lg w-[1320px] h-[351px] object-cover"
+        alt=""
+        src="/public/rectangle-1491@2x.png"
+      />
+
+      <div
+        class="absolute top-[calc(50%_+_681px)] left-[calc(50%_-_328px)] w-[657px] h-[210px] text-[48px]"
+      >
+        <div class="absolute top-[0px] left-[0px] w-[657px] h-[107px]">
+          <h2
+            class="m-0 absolute top-[0px] left-[0px] text-inherit font-bold font-inherit"
+          >
+            Get the Latest Event Updates
+          </h2>
+          <b class="absolute top-[85px] left-[146px] text-base text-dimgray"
+            >Stay Connected for Exclusive Offers and Updates</b
+          >
+        </div>
+        <div class="absolute top-[158px] left-[103.5px] w-[450px] h-[52px]">
+          <input
+            class="[border:none] [outline:none] font-nunito text-xs bg-white absolute top-[1px] left-[0px] rounded-8xs w-[289px] h-[50px] flex flex-row items-center justify-start py-2.5 px-[15px] box-border text-darkslategray-200"
+            type="email"
+          />
+
+          <button
+            class="cursor-pointer [border:none] py-[15px] px-10 bg-darkgray-100 absolute top-[0px] left-[299px] rounded-8xs flex flex-row items-center justify-center disabled:bg-darkgray-200"
+          >
+            <div
+              class="relative text-base font-nunito text-darkslategray-200 text-center"
+            >
+              Subscribe
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="absolute top-[2065px] left-[calc(50%_-_549px)] flex flex-col items-center justify-start gap-[28px_0px] text-17xl"
+      >
+        <h2 class="m-0 relative text-inherit font-bold font-inherit">
+          <span>Our </span>
+          <span class="text-gold">Testimonials</span>
+        </h2>
+        <div class="w-[1098px] relative h-[576px] text-5xl">
+          <div
+            class="absolute top-[103.5px] left-[524px] w-[574px] h-[295px] flex flex-col items-start justify-start gap-[28px_0px]"
+          >
+            <img
+              class="w-[140px] relative h-7"
+              alt=""
+              src="/public/frame-1000006457.svg"
+            />
+
+            <div
+              class="w-[574px] h-[239px] flex flex-col items-start justify-start gap-[24px_0px]"
+            >
+              <b class="w-[574px] relative inline-block"
+                >“Buying a ticket for the concert through Momo Events was such a
+                breeze! The website was easy to navigate, and I was able to find
+                all the information I needed quickly. The booking process was
+                seamless, and I received my ticket confirmation via email
+                instantly. I'll definitely be using their services again in the
+                future!.“</b
+              >
+              <div
+                class="flex flex-row items-center justify-start gap-[0px_64px] text-lg text-gray1"
+              >
+                <div class="relative">Ayuk Sandra</div>
+                <div
+                  class="w-0.5 relative box-border h-[52px] border-r-[2px] border-solid border-black1"
+                ></div>
+                <div class="relative">Social marketer, Alibaba</div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="absolute top-[0px] left-[0px] w-[454px] h-[499px] object-cover"
+            alt=""
+            src="/public/frame-1000006477@2x.png"
+          />
+
+          <div
+            class="absolute top-[530px] left-[982px] w-[116px] h-[46px] flex flex-row items-center justify-start gap-[0px_24px]"
+          >
+            <img
+              class="w-[46px] relative h-[46px] overflow-hidden shrink-0"
+              alt=""
+              src="/public/thinchevronroundlefticon-3.svg"
+            />
+
+            <img
+              class="w-[46px] relative h-[46px] overflow-hidden shrink-0 object-contain"
+              alt=""
+              src="/public/thinchevronroundlefticon-2.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
